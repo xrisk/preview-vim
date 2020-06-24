@@ -1,0 +1,44 @@
+{
+    "title": "Map jk in Preview",
+    "rules": [
+        {
+            "description": "map jk",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "j"
+                    },
+                    "to": [
+                        {
+                            "key_code": "down_arrow"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "bundle_identifiers": ["^com.apple.Preview$"]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "k"
+                    },
+                    "to": [
+                        {
+                            "key_code": "up_arrow"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "bundle_identifiers": ["^com.apple.Preview$"]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
