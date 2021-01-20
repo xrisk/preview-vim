@@ -114,3 +114,49 @@
         }
       ]
     },
+    {
+      "description": "map HL",
+      "manipulators": [{
+          "type": "basic",
+          "from": {
+            "key_code": "h",
+            "modifiers": {
+              "mandatory": [
+                "left_shift"
+              ]
+            }
+          },
+          "to": [{
+            "key_code": "open_bracket",
+            "modifiers": [
+              "left_command"
+            ]
+          }],
+          "conditions": [{
+            "type": "frontmost_application_if",
+            "bundle_identifiers": ["^com.apple.Preview$"]
+          }]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "l",
+            "modifiers": {
+              "mandatory": [
+                "left_shift"
+              ]
+            }
+          },
+          "to": [{
+            "key_code": "close_bracket",
+            "modifiers": [
+              "left_command"
+            ]
+          }],
+          "conditions": [{
+            "type": "frontmost_application_if",
+            "bundle_identifiers": ["^com.apple.Preview$"]
+          }]
+        }
+      ]
+    },
