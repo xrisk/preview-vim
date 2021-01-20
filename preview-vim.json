@@ -160,3 +160,73 @@
         }
       ]
     },
+    {
+      "description": "map zoom",
+      "manipulators": [{
+          "type": "basic",
+          "from": {
+            "key_code": "9"
+          },
+          "to": [{
+            "key_code": "9",
+            "modifiers": [
+              "left_command"
+            ]
+          }],
+          "conditions": [{
+            "type": "frontmost_application_if",
+            "bundle_identifiers": ["^com.apple.Preview$"]
+          }]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "0"
+          },
+          "to": [{
+            "key_code": "0",
+            "modifiers": [
+              "left_command"
+            ]
+          }],
+          "conditions": [{
+            "type": "frontmost_application_if",
+            "bundle_identifiers": ["^com.apple.Preview$"]
+          }]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "hyphen"
+          },
+          "to": [{
+            "key_code": "hyphen",
+            "modifiers": [
+              "left_command"
+            ]
+          }],
+          "conditions": [{
+            "type": "frontmost_application_if",
+            "bundle_identifiers": ["^com.apple.Preview$"]
+          }]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "equal_sign"
+          },
+          "to": [{
+            "key_code": "equal_sign",
+            "modifiers": [
+              "left_command"
+            ]
+          }],
+          "conditions": [{
+            "type": "frontmost_application_if",
+            "bundle_identifiers": ["^com.apple.Preview$"]
+          }]
+        }
+      ]
+    }
+  ]
+}
