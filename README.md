@@ -14,7 +14,7 @@ Zathura looks like shit.
 
 ## Todo
 
--   [ ] implement h/l
--   [ ] implment -/+
--   [ ] implement =
+-   [x] implement h/l
+-   [x] implment -/+
+-   [x] implement =
 -   [ ] idk other shit
