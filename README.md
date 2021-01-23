@@ -20,12 +20,10 @@ Zathura looks like shit.
 - Right => `l`
 - Down => `j`
 - Up => `k`
-
 - Previous position => `H`
 - Next position => `L`
 - Previous page => `K`
 - Next page => `J`
-
 - First page => `g`
 - Last page => `G`
 
