@@ -16,31 +16,30 @@ Zathura looks like shit.
 
 ### Movements:
 
-- Left => h
-- Right => l
-- Down => j
-- Up => k
+- Left => `h`
+- Right => `l`
+- Down => `j`
+- Up => `k`
 
-- Previous position => H
-- Next position => L
-- Previous page => K
-- Next page => J
+- Previous position => `H`
+- Next position => `L`
+- Previous page => `K`
+- Next page => `J`
 
-- First page => g
-- Last page => G
+- First page => `g`
+- Last page => `G`
 
 ### Zoom:
 
-- Zoom In => =
-- Zoom Out => -
-- Actual size => 0
-- Zoom to fit => 9
+- Zoom In => `=`
+- Zoom Out => `-`
+- Actual size => `0`
+- Zoom to fit => `9`
 
 ## Contributors
 
-- Rishav Kundu
-- Daniel Rivas
+Thanks to [Daniel Rivas](https://github.com/DanielRivasMD) for contributing substantial functionality!
 
 ## Todo
 
-- [ ] idk other shit
+- [ ] make more zathura-like
