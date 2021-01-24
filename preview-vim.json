@@ -1,8 +1,8 @@
 {
-  "title": "Preview a la VIM",
+  "title": "Preview a la vim",
   "rules": [
     {
-      "description": "map jk",
+      "description": "vim-preview: map jk (down/up)",
       "manipulators": [
         {
           "type": "basic",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "description": "map JK",
+      "description": "vim preview: map JK (previous / next page)",
       "manipulators": [
         {
           "type": "basic",
@@ -104,7 +104,7 @@
       ]
     },
     {
-      "description": "map hl",
+      "description": "vim-preview: map hl (left / right)",
       "manipulators": [
         {
           "type": "basic",
@@ -147,7 +147,7 @@
       ]
     },
     {
-      "description": "map HL",
+      "description": "vim-preview: map HL (previous / next position)",
       "manipulators": [
         {
           "type": "basic",
@@ -206,7 +206,7 @@
       ]
     },
     {
-      "description": "map zoom",
+      "description": "vim-preview: map zoom (9/0/-/=)",
       "manipulators": [
         {
           "type": "basic",
@@ -299,7 +299,7 @@
       ]
     },
     {
-      "description": "map g",
+      "description": "vim-preview: map gG (go to first / last page)",
       "manipulators": [
         {
           "type": "basic",
